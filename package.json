@@ -9,9 +9,19 @@
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
+    "ejs": "^2.5.7",
     "express": "~4.15.2",
     "hbs": "~4.0.1",
-    "morgan": "~1.8.1",
-    "serve-favicon": "~2.4.2"
+    "morgan": "^1.8.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "serve-favicon": "~2.4.2",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "webpack": "^3.6.0"
   }
 }
