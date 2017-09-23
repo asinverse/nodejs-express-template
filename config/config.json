@@ -1,0 +1,42 @@
+{
+  "session": {
+    "secret": "culreX8Vxj1VDYI3W7wyIao2GsACXQJ6y8imnYEz0XoeeganubbOPJcTJ2pe",
+    "cookie": {
+      "maxAge": 3600000
+    },
+    "resave": false,
+    "saveUninitialized": false
+  },
+  "sessionOptions": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "root",
+    "database": "session"
+  },
+  "cookie": {
+    "secret": "5twi74DB0spqon/3+tCiktgUqJBEmlf0TMWFq3fStkRV8sWXM3CriubYpne0"
+  },
+  "jwt": {
+    "user": "HzY7jD3jOyM8y9Mg1SotMnc6sETo7gPAZg6YOHAoWirLtm29l/sOlNSmefPg",
+    "file": "PP86Veu8YicKgZ/U+l13"
+  },
+  "database": {
+    "development": {
+      "username": "root",
+      "password": "root",
+      "database": "template",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "logging": false
+    },
+    "production": {
+      "username": "root",
+      "password": "root",
+      "database": "template",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "logging": false
+    }
+  }
+}

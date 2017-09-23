@@ -1,10 +1,35 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Template</title>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="google" content="notranslate">
+
+    <link rel="icon" href="/favicon.ico?v=1" type="image/x-icon">
+    <link rel="shortcut icon" href="/favicon.ico?v=1" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {{{_sections.head}}}
   </head>
   <body>
+
     {{{body}}}
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="content has-text-centered">
+          <span>Copyright &#169; {{{year}}} Aoshi. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+
+    {{{_sections.script}}}
   </body>
 </html>
